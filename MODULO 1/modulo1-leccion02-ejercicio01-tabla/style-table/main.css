@@ -1,9 +1,26 @@
+html{
+    background-color:rgb(202, 198, 198);
+}
+div.tabla{
+    text-align: center;
+}
+div.tabla table{
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 100px;
+}
 table{
-    width:100%;
+    width:60%;
+    height:100px;
     border-collapse: separate;
-    background-color:#757575;
+    background-color:#f7c36e;
 }
 td{
+    height:150px;
     border: black;
-    background-color:#f3f4f5;
+    background-color:#c0eafd;
 }
