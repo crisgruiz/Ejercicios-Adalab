@@ -1,0 +1,9 @@
+table{
+    width:100%;
+    border-collapse: separate;
+    background-color:#757575;
+}
+td{
+    border: black;
+    background-color:#f3f4f5;
+}
