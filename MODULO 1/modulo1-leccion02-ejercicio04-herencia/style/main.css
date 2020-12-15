@@ -1,7 +1,10 @@
-.body{
-    font-size: 18px;
-    font: Tahoma;
-    color: rebeccapurple;
-    background-color: mediumpurple;
-    line-height: 1.5;
+.body {
+  font-size: 18px;
+  font: Tahoma;
+  color: rebeccapurple;
+  background-color: mediumpurple;
+  line-height: 1.5;
+}
+mark {
+  background-color: blue;
 }

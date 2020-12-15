@@ -1,0 +1,15 @@
+.div {
+  width: 100px;
+  height: 100px;
+  padding: 100px;
+  margin: 10px 10px;
+  display: inline;
+}
+.imagen {
+  width: 100px;
+  height: 100px;
+}
+.imagen2 {
+  width: 200px;
+  height: 200px;
+}
