@@ -1,0 +1,8 @@
+.div {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border-width: 5px solid;
+  box-sizing: border-box;
+  margin: auto;
+}

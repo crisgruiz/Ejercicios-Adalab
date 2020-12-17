@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  border: black solid 2px;
+  background-color: rgb(250, 140, 140);
+}
+.list {
+  box-sizing: border-box;
+  text-align: center;
+}
+li {
+  border: black solid 2px;
+  display: inline;
+}
+.home {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+.contact {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+.product {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+.about {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+.more {
+  margin-left: 6px;
+  margin-right: 6px;
+}
