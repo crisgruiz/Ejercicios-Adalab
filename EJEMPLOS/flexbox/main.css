@@ -1,33 +1,7 @@
-* {
-  border: 2px solid black;
-  box-sizing: border-box;
+.image {
+  width: 100px;
+  /*poner ese ancho no está bien, es solo para ayudarme a visualizar al principio*/
 }
-
-.container {
-  /*display: flex;*/
-  font-family: Rubik;
-  font-size: 16px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.88;
-  letter-spacing: normal;
-  display: inline-flex;
-  border: blueviolet 5px solid;
-  flex-direction: column;
-}
-.cabecera {
-  width: 320px;
-  height: 60px;
-  padding: 15px 80px;
-  opacity: 0.95;
-  background-color: #099d8d;
-}
-
-.menu {
-  width: 320px;
-  height: 45px;
-  margin: 0px 0 0;
-  padding: 8px 17px 7px 16px;
-  opacity: 0.9;
-}
+/*Colores de laos textos
+#7e8d97 gris (el gris oscuro es porque está en nefrita)
+#2a404f negro*/
