@@ -4,8 +4,8 @@ body {
 .wrapper {
   height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 20vh 60vh 20vh;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 20vh 1fr 20vh;
   grid-gap: 5px;
 }
 
@@ -17,18 +17,19 @@ body {
 }
 
 .item1 {
-  background: rgb(247, 165, 209);
+  background: pink;
   grid-column: 1/13;
+  /*grid-column: span 12;*/
 }
 .item2 {
-  background: rgb(169, 20, 255);
+  background: purple;
   grid-column: 1/5;
 }
 .item3 {
-  background: rgb(255, 20, 20);
+  background: salmon;
   grid-column: 5/13;
 }
 .item4 {
-  background: rgb(102, 206, 238);
+  background: skyblue;
   grid-column: span 12;
 }
