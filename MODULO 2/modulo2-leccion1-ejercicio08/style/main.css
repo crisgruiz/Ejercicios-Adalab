@@ -1,0 +1,9 @@
+.button {
+  padding: 5px;
+  border: rgb(248, 3, 3) 2px solid;
+  color: blue;
+}
+
+.opacity {
+  opacity: 0.5;
+}
