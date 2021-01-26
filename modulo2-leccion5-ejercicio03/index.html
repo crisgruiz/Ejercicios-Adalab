@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="./style/main.css" />
+  </head>
+  <body>
+    <div class="collapsable__content fill">
+      <form class="form__container" action="/signup" method="POST">
+        <div class="fill__container">
+          <label class="form__label" for="name">Nombre completo</label>
+          <input class="form__input" placeholder="Ej: Paquita Salas" id="name" type="text" name="name" />
+        </div>
+        <div class="fill__container">
+          <label class="form__label" for="job">Puesto</label>
+          <input placeholder="Ej: Manager" class="form__input" id="job" type="text" name="job" />
+        </div>
+        <div class="fill__container ">
+          <label class="form__label" for="photo">Imagen de perfil</label>
+          <div class="image-form__container">
+            <input name="button-image"
+            id="button-image" class="button-image" type="type" value="Añadir imagen" />
+            <div class="small-image__container">
+            </div>
+          </div>
+        </div>
+        <div class="fill__container">
+          <label class="form__label" for="email">Email</label>
+          <input placeholder="Ej: email" class="form__input" id="email" type="email" name="email" />
+        </div>
+        <div class="fill__container">
+          <label class="form__label" for="phone">Teléfono</label>
+          <input placeholder="Ej: 555-452-369 " class="form__input" id="phone" type="tel" name="phone" />
+        </div>
+        <div class="fill__container">
+          <label class="form__label" for="linkedin">Linkedin</label>
+          <input placeholder="Ej: linkedin.com/in/paquita.salas" class="form__input" id="linkedin" type="url"
+            name="linkedin" />
+        </div>
+        <div class="fill__container">
+          <label class="form__label" for="github">Github</label>
+          <input placeholder="Ej: @paquita-salas" class="form__input" id="github" type="url" name="github" />
+        </div>
+      </form>
+    </div>
+    <!-- <div class="fill__container">
+      <div class="image-form__container">
+        <input
+          type="file"
+          name="button-image"
+          id="button-image"
+          class="button-image button-image-1"
+          data-multiple-caption="{count} archivos seleccionados"
+          multiple
+        />
+        <label class="form__label" for="photo">
+          <span class="form__label--title">Imagen de perfil</span>
+        </label>
+      </div> -->
+    </div>
+    <script type="text/javascript" src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+.rainbow {
+  text-align: center;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.success {
+  border: 2px solid darkolivegreen;
+  background-color: darkseagreen;
+  color: darkolivegreen;
+}
+
+.error {
+  border: 2px solid darkred;
+  background-color: tomato;
+  color: darkred;
+}
+
+.warning {
+  border: 2px solid yellow;
+  background-color: lightgoldenrodyellow;
+  color: yellow;
+}
+
+.hidden {
+  display: none;
+}

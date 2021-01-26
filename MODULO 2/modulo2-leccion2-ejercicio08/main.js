@@ -15,9 +15,13 @@ const contentTwo = `<img src="${secondDogImage}" alt="">
 <p>${secondDogName}</p>`;
 const contentThree = `<img src="${thirdDogImage}" alt="">
 <p>${thirdDogName}</p>`;
+
+
 const itemOne = document.querySelector(".dog1");
 const itemTwo = document.querySelector(".dog2");
 const itemThree = document.querySelector(".dog3");
+
+
 itemOne.innerHTML = contentOne;
 itemTwo.innerHTML = contentTwo;
 itemThree.innerHTML = contentThree;

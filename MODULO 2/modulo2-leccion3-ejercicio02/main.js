@@ -2,7 +2,7 @@
 
 const myName = 'Cristina';
 
-if (myName === 'Edu')
+if (myName === 'Edu' || myName === 'Jesús')
 {
     console.log(`Bienvenida ${myName}`);}
     else {
