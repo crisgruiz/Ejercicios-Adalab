@@ -1,0 +1,10 @@
+.images {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.cityImage {
+  height: 300px;
+  width: 300px;
+  margin-right: 50px;
+}

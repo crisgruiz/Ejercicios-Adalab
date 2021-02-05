@@ -1,0 +1,12 @@
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  width: 150px;
+  margin: 30px 0;
+}
+.image-dog {
+  width: 450px;
+}
