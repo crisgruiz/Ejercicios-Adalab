@@ -1,0 +1,15 @@
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textArea {
+  margin: 10px;
+  border: black solid 2px;
+}
+.color {
+  background-color: red;
+}
