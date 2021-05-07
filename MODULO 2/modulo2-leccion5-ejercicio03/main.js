@@ -1,14 +1,25 @@
-"user strict";
+'use strict';
 
-const text = document.querySelector('.text');
+;( function ( document, window, index )
+{
+	var inputs = document.querySelectorAll( '.inputfile' );
+	Array.prototype.forEach.call( inputs, function( input )
+	{
+		var label	 = input.nextElementSibling,
+			labelVal = label.innerHTML;
 
-text.addEventListener('mouseover', function addText () {text.innerHTML = text.innerHTML + text.innerHTML}
-);
+		input.addEventListener( 'change', function( e )
+		{
+			var fileName = '';
+			if( this.files && this.files.length > 1 )
+				fileName = ( this.getAttribute( 'data-multiple-caption' ) || '' ).replace( '{count}', this.files.length );
+			else
+				fileName = e.target.value.split( '\\' ).pop();
 
-// const addText = () => {
-//     const text = document.querySelector('.text');
-//     const result = text.innerHTML + text.innerHTML;
-//     text.innerHTML = result;
-// };
-
-// text.addEventListener('mouseover', addText);
+			if( fileName )
+				label.querySelector( 'span' ).innerHTML = fileName;
+			else
+				label.innerHTML = labelVal;
+		});
+	});
+}( document, window, 0 ));
